@@ -15,7 +15,10 @@ body {
 *:focus {
     outline: 0 none !important;
 }
-
+.footer a:hover {
+    color: rgb(161, 161, 161);
+    text-decoration: none;
+}
 /* Navigation */
 .navbar {
     padding: 0;
@@ -65,6 +68,7 @@ body {
     height: 100%;
     padding-left: 4em;
     padding-right: 4em;
+    font-size: calc(0.5em + 0.6vw);
 }
 
 .custom-navbar .navbar-collapse .navbar-nav li a:hover {
@@ -170,11 +174,15 @@ body {
 .stats {
     padding: 1em;
 }
+.text-gray {
+    display: block;
+    color: #757575;
+}
 
 .stats-content {
     padding: 10px;
     text-align: center;
-    background-color: #2e3236;
+    background-color: #1818188f;
     border-radius: 10px;
 }
 
@@ -320,6 +328,12 @@ h1 {
     padding-top: 2%;
     padding-bottom: 2%;
 }
+.container-custom-player2 {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 0;
+    padding-bottom: 2%;
+}
 .player-block {
     height: 100%;
 }
@@ -364,7 +378,7 @@ h1 {
 }
 #trapezoid {
     position: absolute;
-    width: 750px;
+    width: 38%;
     left: 0;
     height: 0;
     border-bottom: 120px solid rgba(255, 255, 255, 0.205);
@@ -373,7 +387,7 @@ h1 {
 #trapezoid2 {
     position: absolute;
     right: 0;
-    width: 774px;
+    width: 38%;
     height: 0;
     border-bottom: 120px solid rgba(255, 255, 255, 0.205);
     border-left: 40px solid transparent;
@@ -506,42 +520,6 @@ h1 {
 .font-res {
     font-size: 0.8rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .progress {
