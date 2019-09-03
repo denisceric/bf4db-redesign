@@ -1,0 +1,668 @@
+<html>
+
+<head>
+    <title>Home | BF4DB</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/glide.theme.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.1/css/glide.core.css" />
+
+    <!-- Scripts -->
+    <script src="https://kit.fontawesome.com/0016057aa3.js"></script>
+</head>
+
+<body class="player-page">
+<div id="trapezoid"></div>
+<div id="trapezoid2"></div>
+
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar navbar-expand-lg align-content-center custom-navbar">
+
+            <!--  Show this only on mobile to medium screens  -->
+            <a class="navbar-brand d-lg-none" href="#">BF4DB</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+
+                <i class="fas fa-bars toggle-button"></i>
+
+            </button>
+
+            <!--  Use flexbox utility classes to change how the child elements are justified  -->
+            <div class="collapse navbar-collapse justify-content-between" id="navbarToggle">
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">FORUM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">BF4 STATS</a>
+                    </li>
+                </ul>
+
+                <!--   Show this only lg screens and up   -->
+                <a class="navbar-brand d-none d-lg-block" href="#"><img src="images/logo.png"></a>
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">BAN LIST</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">LOGIN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">REGISTER</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+<div class="container-fluid bg-black">
+
+
+
+    <!-- Player -->
+    <div class="container-custom-player">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="col-md-12 player-block">
+                    <div class="player clearfix">
+                        <div class="col-md-6 player-avatar">
+                            <img src="images/player/player.jpg" class="player-image">
+                        </div>
+                        <div class="col-md-6 player-basic-info text-white">
+                            <div class="player-rating col-md-12">
+                                <img src="images/player/rating.png" class="player-rating">
+                            </div>
+                            <span class="player-titles">PLAYER:</span> M1KAZU
+                            <br>
+                            <span class="player-titles">STATUS:</span> <span class="text-red font-res">INVESTIGATING</span>
+                            <br>
+                            <div class="progress">
+                                <div class="bar"> &nbsp; CHEAT 50%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="col-md-12 player-block2-3 d-md-none mt-4">
+                        <div class="player2 row clearfix">
+        
+                                    <div class="col player-skills-block">
+                                        <div class="player-skills">
+                                            <div class="player-skills-title">
+                                                <i class="fas fa-chart-pie icon"></i>
+                                            </div>
+                                            <div class="player-skills-content">
+                                                KDR: <span class="text-red2">2.54</span>
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                    <div class="col player-skills-block">
+                                        <div class="player-skills">
+                                            <div class="player-skills-title">
+                                                <i class="fas fa-star-half-alt icon"></i>
+                                            </div>
+                                            <div class="player-skills-content">
+                                                SCORE: <span class="text-red2">7,850,197</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col player-skills-block">
+                                        <div class="player-skills">
+                                            <div class="player-skills-title">
+                                                    <i class="fas fa-skull icon"></i>
+                                            </div>
+                                            <div class="player-skills-content">
+                                                KILLS: <span class="text-red2">12,571</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col player-skills-block">
+                                        <div class="player-skills">
+                                            <div class="player-skills-title">
+                                                <i class="far fa-clock icon"></i>
+                                            </div>
+                                            <div class="player-skills-content">
+                                                TIME: <span class="text-red2">114H</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col player-skills-block">
+                                        <div class="player-skills">
+                                            <div class="player-skills-title">
+                                                <i class="fas fa-crosshairs icon"></i>
+                                            </div>
+                                            <div class="player-skills-content">
+                                                SKILL: <span class="text-red2">727</span>
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                    <div class="col player-skills-block">
+                                        <div class="player-skills">
+                                            <div class="player-skills-title">
+                                                <i class="fab fa-creative-commons-sampling icon"></i>
+                                            </div>
+                                            <div class="player-skills-content">
+                                                SPM: <span class="text-red2">1144</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col player-skills-block">
+                                        <div class="player-skills">
+                                            <div class="player-skills-title">
+                                                <i class="fas fa-tachometer-alt icon"></i>
+                                            </div>
+                                            <div class="player-skills-content">
+                                                SCORE: <span class="text-red2">1.83</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                    <table class="table table-custom table-striped table-dark">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">WEAPON</th>
+                                                <th scope="col">KILLS</th>
+                                                <th scope="col">KPM</th>
+                                                <th scope="col">ACC</th>
+                                                <th scope="col">HSKR</th>
+                                                <th scope="col">DMG</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>AEK-971</td>
+                                                <td>4389</td>
+                                                <td class="text-success">3.77</td>
+                                                <td>19.31</td>
+                                                <td>10.09</td>
+                                                <td>19.32</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ACE 23</td>
+                                                <td>1034</td>
+                                                <td>1.85</td>
+                                                <td>15.86</td>
+                                                <td>18.86</td>
+                                                <td>17.53</td>
+                                            </tr>
+                                            <tr>
+                                                <td>G18</td>
+                                                <td>628</td>
+                                                <td class="text-success">4.46</td>
+                                                <td>24.11</td>
+                                                <td>8.28</td>
+                                                <td class="text-warning">21.71</td>
+                                            </tr>
+                                            <tr>
+                                                <td>PKP Pecheneg</td>
+                                                <td>473</td>
+                                                <td class="text-warning">5.79</td>
+                                                <td class="text-success">20.47</td>
+                                                <td>7.40</td>
+                                                <td>24.02</td>
+                                            </tr>
+                                            <tr>
+                                                <td>M16A4</td>
+                                                <td>437</td>
+                                                <td class="text-success">4.42</td>
+                                                <td class="text-success">27.52</td>
+                                                <td>6.64</td>
+                                                <td>20.55</td>
+                                            </tr>
+                                            <tr>
+                                                <td>AEK-971</td>
+                                                <td>4389</td>
+                                                <td class="text-success">3.77</td>
+                                                <td>19.31</td>
+                                                <td>10.09</td>
+                                                <td>19.32</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ACE 23</td>
+                                                <td>1034</td>
+                                                <td>1.85</td>
+                                                <td>15.86</td>
+                                                <td>18.86</td>
+                                                <td>17.53</td>
+                                            </tr>
+                                            <tr>
+                                                <td>G18</td>
+                                                <td>628</td>
+                                                <td class="text-success">4.46</td>
+                                                <td>24.11</td>
+                                                <td>8.28</td>
+                                                <td class="text-warning">21.71</td>
+                                            </tr>
+                                            <tr>
+                                                <td>PKP Pecheneg</td>
+                                                <td>473</td>
+                                                <td class="text-warning">5.79</td>
+                                                <td class="text-success">20.47</td>
+                                                <td>7.40</td>
+                                                <td>24.02</td>
+                                            </tr>
+                                            <tr>
+                                                <td>M16A4</td>
+                                                <td>437</td>
+                                                <td class="text-success">4.42</td>
+                                                <td class="text-success">27.52</td>
+                                                <td>6.64</td>
+                                                <td>20.55</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+                <div class="col-md-12 player-block pt-4 pb-4">
+                    <div class="player3 clearfix">
+                        <div class="text-red">PRESENTATION</div>
+                        <div class="presentation">
+                            Prazer Gustavo Ochiuzzo ( M1KAZU ) 
+                            Idade : 25
+                            Trabalho : Agente Policia Federal ( PFMG ) 
+                            ------------------------------------------------------------- 
+                            
+                            Observações : Jogo BF desde 2010, Comecei no BDC 2 ( Bad Company 2 )
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 player-block">
+                    <div class="player3 clearfix">
+                        <div class="text-red"><span class="text-red">PLAYER </span><span class="text-white">HISTORY</span></div>
+                        <div class="history mt-3">
+                            <img src="images/player/chart.png">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 player-block pt-4 pb-4">
+                        <div class="player3 clearfix">
+                            <div class="text-red"><span class="text-red">PREVIOUS </span><span class="text-white">NAMES</span></div>
+                            <div class="presentation">
+                                <div class="text-white float-left">-Fahidy-</div><div class="text-right">6 months ago</div>
+                                <div class="text-white float-left">PaiN-Guh</div><div class="text-right">6 months ago</div>
+                                <div class="text-white float-left">C0R1NT1AN0</div><div class="text-right">5 months ago</div>
+                                <div class="text-white float-left">M1KAZU</div><div class="text-right">1 week ago</div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+            </div>
+            <div class="col-md-8 player-block2 d-none d-md-block">
+                <div class="player2 row clearfix">
+
+                            <div class="col player-skills-block">
+                                <div class="player-skills">
+                                    <div class="player-skills-title">
+                                        <i class="fas fa-chart-pie icon"></i>
+                                    </div>
+                                    <div class="player-skills-content">
+                                        KDR: <span class="text-red2">2.54</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col player-skills-block">
+                                <div class="player-skills">
+                                    <div class="player-skills-title">
+                                        <i class="fas fa-star-half-alt icon"></i>
+                                    </div>
+                                    <div class="player-skills-content">
+                                        SCORE: <span class="text-red2">7,850,197</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col player-skills-block">
+                                <div class="player-skills">
+                                    <div class="player-skills-title">
+                                            <i class="fas fa-skull icon"></i>
+                                    </div>
+                                    <div class="player-skills-content">
+                                        KILLS: <span class="text-red2">12,571</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col player-skills-block">
+                                <div class="player-skills">
+                                    <div class="player-skills-title">
+                                        <i class="far fa-clock icon"></i>
+                                    </div>
+                                    <div class="player-skills-content">
+                                        TIME: <span class="text-red2">114H</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col player-skills-block">
+                                <div class="player-skills">
+                                    <div class="player-skills-title">
+                                        <i class="fas fa-crosshairs icon"></i>
+                                    </div>
+                                    <div class="player-skills-content">
+                                        SKILL: <span class="text-red2">727</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col player-skills-block">
+                                <div class="player-skills">
+                                    <div class="player-skills-title">
+                                        <i class="fab fa-creative-commons-sampling icon"></i>
+                                    </div>
+                                    <div class="player-skills-content">
+                                        SPM: <span class="text-red2">1144</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col player-skills-block">
+                                <div class="player-skills">
+                                    <div class="player-skills-title">
+                                        <i class="fas fa-tachometer-alt icon"></i>
+                                    </div>
+                                    <div class="player-skills-content">
+                                        SCORE: <span class="text-red2">1.83</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                            <table class="table table-custom table-striped table-dark">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">WEAPON</th>
+                                        <th scope="col">KILLS</th>
+                                        <th scope="col">KPM</th>
+                                        <th scope="col">ACC</th>
+                                        <th scope="col">HSKR</th>
+                                        <th scope="col">DMG</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>AEK-971</td>
+                                        <td>4389</td>
+                                        <td class="text-success">3.77</td>
+                                        <td>19.31</td>
+                                        <td>10.09</td>
+                                        <td>19.32</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ACE 23</td>
+                                        <td>1034</td>
+                                        <td>1.85</td>
+                                        <td>15.86</td>
+                                        <td>18.86</td>
+                                        <td>17.53</td>
+                                    </tr>
+                                    <tr>
+                                        <td>G18</td>
+                                        <td>628</td>
+                                        <td class="text-success">4.46</td>
+                                        <td>24.11</td>
+                                        <td>8.28</td>
+                                        <td class="text-warning">21.71</td>
+                                    </tr>
+                                    <tr>
+                                        <td>PKP Pecheneg</td>
+                                        <td>473</td>
+                                        <td class="text-warning">5.79</td>
+                                        <td class="text-success">20.47</td>
+                                        <td>7.40</td>
+                                        <td>24.02</td>
+                                    </tr>
+                                    <tr>
+                                        <td>M16A4</td>
+                                        <td>437</td>
+                                        <td class="text-success">4.42</td>
+                                        <td class="text-success">27.52</td>
+                                        <td>6.64</td>
+                                        <td>20.55</td>
+                                    </tr>
+                                    <tr>
+                                        <td>AEK-971</td>
+                                        <td>4389</td>
+                                        <td class="text-success">3.77</td>
+                                        <td>19.31</td>
+                                        <td>10.09</td>
+                                        <td>19.32</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ACE 23</td>
+                                        <td>1034</td>
+                                        <td>1.85</td>
+                                        <td>15.86</td>
+                                        <td>18.86</td>
+                                        <td>17.53</td>
+                                    </tr>
+                                    <tr>
+                                        <td>G18</td>
+                                        <td>628</td>
+                                        <td class="text-success">4.46</td>
+                                        <td>24.11</td>
+                                        <td>8.28</td>
+                                        <td class="text-warning">21.71</td>
+                                    </tr>
+                                    <tr>
+                                        <td>PKP Pecheneg</td>
+                                        <td>473</td>
+                                        <td class="text-warning">5.79</td>
+                                        <td class="text-success">20.47</td>
+                                        <td>7.40</td>
+                                        <td>24.02</td>
+                                    </tr>
+                                    <tr>
+                                        <td>M16A4</td>
+                                        <td>437</td>
+                                        <td class="text-success">4.42</td>
+                                        <td class="text-success">27.52</td>
+                                        <td>6.64</td>
+                                        <td>20.55</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <div class="col-md-12">
+                                <div class="text-center">
+                                    <span class="text-red">LATEST</span> <span class="text-white">REPORTS</span>
+                                </div>
+                            </div>
+
+
+                            <table class="table table-custom table-striped table-dark mt-3">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">DATE</th>
+                                            <th scope="col">MAP</th>
+                                            <th scope="col">SCORE</th>
+                                            <th scope="col">K</th>
+                                            <th scope="col">A</th>
+                                            <th scope="col">D</th>
+                                            <th scope="col">KDR</th>
+                                            <th scope="col">VIEW</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>AEK-971</td>
+                                            <td>4389</td>
+                                            <td class="text-success">3.77</td>
+                                            <td>19.31</td>
+                                            <td>10.09</td>
+                                            <td>19.32</td>
+                                            <td>17.53</td>
+                                            <td>17.53</td>
+                                        </tr>
+                                        <tr>
+                                            <td>ACE 23</td>
+                                            <td>1034</td>
+                                            <td>1.85</td>
+                                            <td>15.86</td>
+                                            <td>18.86</td>
+                                            <td>17.53</td>
+                                            <td>17.53</td>
+                                            <td>17.53</td>
+                                        </tr>
+                                        <tr>
+                                            <td>G18</td>
+                                            <td>628</td>
+                                            <td class="text-success">4.46</td>
+                                            <td>24.11</td>
+                                            <td>8.28</td>
+                                            <td class="text-warning">21.71</td>
+                                            <td>17.53</td>
+                                            <td>17.53</td>
+                                        </tr>
+                                        <tr>
+                                            <td>PKP Pecheneg</td>
+                                            <td>473</td>
+                                            <td class="text-warning">5.79</td>
+                                            <td class="text-success">20.47</td>
+                                            <td>7.40</td>
+                                            <td>24.02</td>
+                                            <td>17.53</td>
+                                            <td>17.53</td>
+                                        </tr>
+                                        <tr>
+                                            <td>M16A4</td>
+                                            <td>437</td>
+                                            <td class="text-success">4.42</td>
+                                            <td class="text-success">27.52</td>
+                                            <td>6.64</td>
+                                            <td>20.55</td>
+                                            <td>17.53</td>
+                                            <td>17.53</td>
+                                        </tr>
+                                        <tr>
+                                            <td>AEK-971</td>
+                                            <td>4389</td>
+                                            <td class="text-success">3.77</td>
+                                            <td>19.31</td>
+                                            <td>10.09</td>
+                                            <td>19.32</td>
+                                            <td>17.53</td>
+                                            <td>17.53</td>
+                                        </tr>
+                                        <tr>
+                                            <td>ACE 23</td>
+                                            <td>1034</td>
+                                            <td>1.85</td>
+                                            <td>15.86</td>
+                                            <td>18.86</td>
+                                            <td>17.53</td>
+                                            <td>17.53</td>
+                                            <td>17.53</td>
+                                        </tr>
+                                        <tr>
+                                            <td>G18</td>
+                                            <td>628</td>
+                                            <td class="text-success">4.46</td>
+                                            <td>24.11</td>
+                                            <td>8.28</td>
+                                            <td class="text-warning">21.71</td>
+                                            <td>17.53</td>
+                                            <td>17.53</td>
+                                        </tr>
+                                        <tr>
+                                            <td>PKP Pecheneg</td>
+                                            <td>473</td>
+                                            <td class="text-warning">5.79</td>
+                                            <td class="text-success">20.47</td>
+                                            <td>7.40</td>
+                                            <td>24.02</td>
+                                            <td>17.53</td>
+                                            <td>17.53</td>
+                                        </tr>
+                                        <tr>
+                                            <td>M16A4</td>
+                                            <td>437</td>
+                                            <td class="text-success">4.42</td>
+                                            <td class="text-success">27.52</td>
+                                            <td>6.64</td>
+                                            <td>20.55</td>
+                                            <td>17.53</td>
+                                            <td>17.53</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- Footer-->
+    <div class="col-md-12 footer">
+        FOOTER
+    </div>
+
+</div><!-- div.container-fluid -->
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script type="text/javascript">
+        new Glide('.glide', {
+            type: 'carousel',
+            autoplay: 0,
+            animationDuration: 300,
+            animationTimingFunc: 'linear',
+            perView: 1,
+            peek: 400,
+            breakpoints: {
+                1400: {
+                    peek: 300
+                },
+                1200: {
+                    peek: 200
+                },
+                800: {
+                    peek: 100
+                },
+                480: {
+                    peek: 75
+                },
+            }
+        }).mount()
+    </script>
+</body>
+
+</html>

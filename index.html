@@ -1,0 +1,457 @@
+<html>
+
+<head>
+    <title>Home | BF4DB</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/glide.theme.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.1/css/glide.core.css" />
+
+    <!-- Scripts -->
+    <script src="https://kit.fontawesome.com/0016057aa3.js"></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar navbar-expand-lg align-content-center custom-navbar">
+
+            <!--  Show this only on mobile to medium screens  -->
+            <a class="navbar-brand d-lg-none" href="#">BF4DB</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+
+                <i class="fas fa-bars toggle-button"></i>
+
+            </button>
+
+            <!--  Use flexbox utility classes to change how the child elements are justified  -->
+            <div class="collapse navbar-collapse justify-content-between" id="navbarToggle">
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">FORUM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">BF4 STATS</a>
+                    </li>
+                </ul>
+
+                <!--   Show this only lg screens and up   -->
+                <a class="navbar-brand d-none d-lg-block" href="#"><img src="images/logo.png"></a>
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">BAN LIST</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">LOGIN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">REGISTER</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Search bar -->
+    <div class="center">
+        <div class="input-group">
+            <input type="search" placeholder="Search player..." aria-describedby="button-addon1" class="form-control search">
+            <div class="input-group-append">
+                <button id="button-addon1" type="submit" class="btn btn-link text-primary"><i class="fa fa-search search-icon"></i></button>
+            </div>
+            <!-- div.input-group-append -->
+        </div>
+        <!-- div.input-group -->
+    </div>
+    <!-- div.center -->
+
+    <!-- Statistics -->
+    <div class="container-custom">
+        <div class="row">
+            <div class="col-md-3 stats">
+                <div class="stats-content">
+                    <span class="text-red stats-number">9122</span>
+                    <br><span class="text-white stats-text"> PLAYERS ONLINE</span>
+                </div>
+            </div>
+
+            <div class="col-md-3 stats">
+                <div class="stats-content">
+                    <span class="text-red stats-number">612</span>
+                    <br><span class="text-white stats-text"> SERVERS ONLINE</span>
+                </div>
+            </div>
+            <div class="col-md-3 stats">
+                <div class="stats-content">
+                    <span class="text-red stats-number">8529</span>
+                    <br><span class="text-white stats-text"> PLAYERS ON RANKED</span>
+                </div>
+            </div>
+
+            <div class="col-md-3 stats">
+                <div class="stats-content">
+                    <span class="text-red stats-number">593</span>
+                    <br><span class="text-white stats-text"> PLAYERS ON OFFICIAL</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Latest news-->
+    <div class="mt-2 latest-news">
+        <h1 class="pt-2 mb-0">
+        <span class="px-4 pt-2">
+            LATEST NEWS
+        </span>
+    </h1>
+    </div>
+
+    <!-- Carousel -->
+    <div class="content">
+        <div class="glide">
+            <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                    <li class="glide__slide">
+                        <img src="images/img1.jpg">
+                        <div class="bottom-left">
+                            STATE OF BF4DB
+                            <div class="post-content">
+                                Hello, everyone. Welcome to our first annual State of BF4DB. In this post, I aim to discuss the current state of BF4DB, our current plans, as well as ...
+                            </div>
+                            <div class="read-more">
+                                READ MORE
+                            </div>
+                        </div>
+                    </li>
+                    <li class="glide__slide">
+                        <img src="images/img1.jpg">
+                        <div class="bottom-left">
+                            STATE OF BF4DB
+                            <div class="post-content">
+                                Hello, everyone. Welcome to our first annual State of BF4DB. In this post, I aim to discuss the current state of BF4DB, our current plans, as well as ...
+                            </div>
+                            <div class="read-more">
+                                READ MORE
+                            </div>
+                        </div>
+                    </li>
+                    <li class="glide__slide">
+                        <img src="images/img1.jpg">
+                        <div class="bottom-left">
+                            STATE OF BF4DB
+                            <div class="post-content">
+                                Hello, everyone. Welcome to our first annual State of BF4DB. In this post, I aim to discuss the current state of BF4DB, our current plans, as well as ...
+                            </div>
+                            <div class="read-more">
+                                READ MORE
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Latest bans, reports and forum posts-->
+    <div class="container-custom">
+        <div class="row">
+            <div class="col-md-4 info-block">
+                <div class="info">
+                    <h4 class="title">
+                    <span class="text-red">LATEST</span> <span class="text-white">BANS</span>
+                </h4>
+                    <hr>
+                    <div class="list">
+                        <div class="report">
+                            <div class="avatar">
+                                <img src="images/avatar.jpg">
+                            </div>
+                            <div class="username">
+                                BrunnorX
+                            </div>
+                            <br>
+                            <div class="message">
+                                100%
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="report">
+                            <div class="avatar">
+                                <img src="images/avatar.jpg">
+                            </div>
+                            <div class="username">
+                                minuit25
+                            </div>
+                            <br>
+                            <div class="message">
+                                100%
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="report">
+                            <div class="avatar">
+                                <img src="images/avatar.jpg">
+                            </div>
+                            <div class="username">
+                                Syd66
+                            </div>
+                            <br>
+                            <div class="message">
+                                100%
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="report">
+                            <div class="avatar">
+                                <img src="images/avatar.jpg">
+                            </div>
+                            <div class="username">
+                                EuSouAutista
+                            </div>
+                            <br>
+                            <div class="message">
+                                100%
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="report">
+                            <div class="avatar">
+                                <img src="images/avatar.jpg">
+                            </div>
+                            <div class="username">
+                                El_T4LIBAN
+                            </div>
+                            <br>
+                            <div class="message">
+                                100%
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 info-block">
+                <div class="info">
+                    <h4 class="title">
+                        <span class="text-red">LATEST</span> <span class="text-white">BANS</span>
+                    </h4>
+                    <hr>
+                    <div class="list">
+                        <div class="report">
+                            <div class="avatar">
+                                <img src="images/avatar.jpg">
+                            </div>
+                            <div class="username">
+                                Big-Shaq-bruv
+                            </div>
+                            <br>
+                            <div class="message">
+                                81%
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="report">
+                            <div class="avatar">
+                                <img src="images/avatar.jpg">
+                            </div>
+                            <div class="username">
+                                soponnew
+                            </div>
+                            <br>
+                            <div class="message">
+                                0%
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="report">
+                            <div class="avatar">
+                                <img src="images/avatar.jpg">
+                            </div>
+                            <div class="username">
+                                MaLuKuU
+                            </div>
+                            <br>
+                            <div class="message">
+                                0%
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="report">
+                            <div class="avatar">
+                                <img src="images/avatar.jpg">
+                            </div>
+                            <div class="username">
+                                BadAiM_Kinguin
+                            </div>
+                            <br>
+                            <div class="message">
+                                0%
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="report">
+                            <div class="avatar">
+                                <img src="images/avatar.jpg">
+                            </div>
+                            <div class="username">
+                                1tsNiico
+                            </div>
+                            <br>
+                            <div class="message">
+                                0%
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 info-block">
+                <div class="info">
+                    <h4 class="title">
+                        <span class="text-red">LATEST</span> <span class="text-white">BANS</span>
+                    </h4>
+                    <hr>
+                    <div class="list">
+                        <div class="report">
+                            <div class="avatar">
+                                <img src="images/avatar.jpg">
+                            </div>
+                            <div class="username">
+                                BAN APPEAL
+                            </div>
+                            <br>
+                            <div class="message">
+                                <i class="fa fa-clock"></i> 12 hours ago
+                                <i class="fas fa-eye"></i> 128 Views
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="report">
+                            <div class="avatar">
+                                <img src="images/avatar.jpg">
+                            </div>
+                            <div class="username">
+                                El_T4LIBAN - Not Clean
+                            </div>
+                            <br>
+                            <div class="message">
+                                <i class="fa fa-clock"></i> 12 hours ago
+                                <i class="fas fa-eye"></i> 64 Views
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="report">
+                            <div class="avatar">
+                                <img src="images/avatar.jpg">
+                            </div>
+                            <div class="username">
+                                Banned Again?
+                            </div>
+                            <br>
+                            <div class="message">
+                                <i class="fa fa-clock"></i> 12 hours ago
+                                <i class="fas fa-eye"></i> 32 Views
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="report">
+                            <div class="avatar">
+                                <img src="images/avatar.jpg">
+                            </div>
+                            <div class="username">
+                                BAN APPEAL
+                            </div>
+                            <br>
+                            <div class="message">
+                                <i class="fa fa-clock"></i> 12 hours ago
+                                <i class="fas fa-eye"></i> 16 Views
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="report">
+                            <div class="avatar">
+                                <img src="images/avatar.jpg">
+                            </div>
+                            <div class="username">
+                                BAN APPEAL
+                            </div>
+                            <br>
+                            <div class="message">
+                                <i class="fa fa-clock"></i> 12 hours ago
+                                <i class="fas fa-eye"></i> 8 Views
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Advertisements -->
+    <div class="container-custom">
+        <div class="row">
+            <div class="col-md-6 info-block">
+                <div class="info">
+                    <h4 class="title">
+                    <span class="text-red">POWERED BY</span> <span class="text-white">FRAGNET.NET</span>
+                </h4>
+                    <img src="images/fragnet.png" class="ads">
+                </div>
+            </div>
+            <div class="col-md-6 info-block">
+                <div class="info">
+                    <h4 class="title">
+                    <span class="text-white">JOIN US ON</span> <img src="images/discord.svg" style="width: 30px;"> <span class="text-white">DISCORD</span> <span class="text-red">CLICK HERE</span>
+                </h4>
+                    <img src="images/ad.png" class="ads">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer-->
+    <div class="col-md-12 footer">
+        FOOTER
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script type="text/javascript">
+        new Glide('.glide', {
+            type: 'carousel',
+            autoplay: 0,
+            animationDuration: 300,
+            animationTimingFunc: 'linear',
+            perView: 1,
+            peek: 400,
+            breakpoints: {
+                1400: {
+                    peek: 300
+                },
+                1200: {
+                    peek: 200
+                },
+                800: {
+                    peek: 100
+                },
+                480: {
+                    peek: 75
+                },
+            }
+        }).mount()
+    </script>
+</body>
+
+</html>
