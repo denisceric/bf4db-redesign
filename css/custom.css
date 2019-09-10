@@ -577,8 +577,8 @@ transition: width 0.6s ease;
 
 
 .forum {
-    padding-left: 11%;
-    padding-right: 11%;
+    padding-left: 14%;
+    padding-right: 14%;
 }
 .forum1 {
     padding-left: 14%;
@@ -599,8 +599,8 @@ transition: width 0.6s ease;
     color: #dd163b;
 }
 .forum-thread-container {
-    padding-left: 13%;
-    padding-right: 13%;
+    padding-left: 11%;
+    padding-right: 11%;
 }
 .forum-thread-links {
     padding: 10px;
@@ -615,6 +615,10 @@ transition: width 0.6s ease;
     font-family: 'Open Sans', sans-serif;
     vertical-align: middle;
     border: 1px solid #b8b8b83b;
+    animation: pop-in 0.5s;
+    -webkit-animation:pop-in 0.5s;
+    -moz-animation:pop-in 0.5s;
+    -ms-animation:pop-in 0.5s;
 }
 .forum-thread i {
     color: #dd163b9d;
@@ -631,6 +635,10 @@ transition: width 0.6s ease;
     background-color: #222427;
     padding: 30px;
     align-items: center;
+    animation: pop-in 1s;
+    -webkit-animation:pop-in 1s;
+    -moz-animation:pop-in 1s;
+    -ms-animation:pop-in 1s;
 }
 .forum-thread-title .subscribe a {
     font-size: 18px;
@@ -645,6 +653,10 @@ transition: width 0.6s ease;
     color: #dfdfdf;
     padding-left: 30px;
     padding-right: 30px;
+    animation: pop-in 2s;
+    -webkit-animation:pop-in 2s;
+    -moz-animation:pop-in 2s;
+    -ms-animation:pop-in 2s;
 }
 .forum-post .posted-by {
     height: 340px;
@@ -754,7 +766,18 @@ transition: width 0.6s ease;
 
 
 
-
+@-webkit-keyframes pop-in {
+    0% { opacity: 0; -webkit-transform: scale(0.5); }
+    100% { opacity: 1; -webkit-transform: scale(1); }
+    }
+    @-moz-keyframes pop-in {
+    0% { opacity: 0; -moz-transform: scale(0.5); }
+    100% { opacity: 1; -moz-transform: scale(1); }
+    }
+    @keyframes pop-in {
+    0% { opacity: 0; transform: scale(0.5); }
+    100% { opacity: 1; transform: scale(1); }
+}
 
 
 
